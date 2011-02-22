@@ -438,9 +438,9 @@ Caman.extend( Caman, {
     return ret;      
   },
     
-  randomRange: function (min, max, float) {
+  randomRange: function (min, max, floatx) {
     var rand = min + (Math.random() * (max - min));
-    return typeof float == 'undefined' ? Math.round(rand) : rand.toFixed(float);
+    return typeof floatx == 'undefined' ? Math.round(rand) : rand.toFixed(floatx);
   },
   
   /**
